@@ -24,6 +24,7 @@ public class Teleporter : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, vertical, transform.position.z);
         }
+
         if (transform.position.x > horizontal)
         {
             transform.position = new Vector3(-horizontal, transform.position.y, transform.position.z);
